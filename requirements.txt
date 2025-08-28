@@ -1,0 +1,12 @@
+# Requirements for Airbnb Portfolio Wordcloud Generator
+# Core dependencies
+wordcloud>=1.9.0
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# Optional dependencies for better font support
+Pillow>=9.0.0
+
+# Development dependencies (optional)
+# jupyter>=1.0.0
+# pandas>=1.3.0
