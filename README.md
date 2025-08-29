@@ -35,9 +35,6 @@ airbnb-review-keyphrase-visualizer/
 ├── json/                           # AWS Comprehend output files
 │   ├── output-keyphrase.json      # Raw keyphrase analysis
 │   └── output-sentiment.json     # Raw sentiment analysis
-├── manifest/                       # AWS batch job manifests
-│   ├── manifest-keyphrase.json    # Keyphrase job configuration
-│   └── manifest-sentiment.json   # Sentiment job configuration
 ├── result/                         # Generated visualizations
 │   └── wordcloud.png             # Final weighted word cloud
 ├── scripts/                        # Analysis and visualization scripts
@@ -46,9 +43,6 @@ airbnb-review-keyphrase-visualizer/
 │   ├── airbnb-review-dataset-final.txt   # Original review text
 │   ├── airbnb-review-dataset-final.csv   # Structured data format
 │   └── airbnb-review-dataset-final.xlsx  # Spreadsheet format
-├── tar.gz/                         # Compressed AWS output archives
-│   ├── output-keyphrase.tar.gz    # Archived keyphrase results
-│   └── output-sentiment.tar.gz   # Archived sentiment results
 ├── translated/                     # Translation output
 │   └── en.airbnb-review-dataset-final.txt  # English translated reviews
 ├── requirements.txt               # Python dependencies
@@ -169,7 +163,6 @@ This analysis framework provides actionable insights for:
 ## 🔮 Future Enhancements
 
 - **Trend Analysis**: Time-series sentiment tracking
-- **Comparative Analysis**: Multi-property comparison capabilities
 - **Real-time Processing**: Live review analysis integration
 - **Advanced NLP**: Custom entity recognition and topic modeling
 
