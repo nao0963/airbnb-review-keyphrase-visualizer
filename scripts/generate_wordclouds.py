@@ -263,24 +263,24 @@ def main():
     )
     parser.add_argument("sentiment_jsonl", help="Path to sentiment analysis JSONL file")
     parser.add_argument("keyphrases_jsonl", help="Path to keyphrase extraction JSONL file")
-    parser.add_argument("--min_keyphrase_score", "--min_kp_score", type=float, default=0.9,
+    parser.add_argument("--min_kp_score", type=float, default=0.9,
                        help="Minimum keyphrase score threshold (default: 0.9)")
-    parser.add_argument("--drop_short_length", "--drop_short_len", type=int, default=2,
+    parser.add_argument("--drop_short_length", type=int, default=2,
                        help="Minimum phrase length to include (default: 2)")
-    parser.add_argument("--output_dir", "--outdir", default="out",
-                       help="Output directory for generated images (default: out)")
+    parser.add_argument("--outdir", default="result",
+                       help="Output directory for generated images (default: result)")
     
     args = parser.parse_args()
 
     # Build sentiment polarity mapping
-    output_directory = Path(args.output_dir)
+    output_directory = Path(args.outdir)
     polarity_map = build_sentence_polarity_map(args.sentiment_jsonl)
     
     # Calculate phrase weights using sentiment and keyphrase scores
     weights = build_weights(
         args.keyphrases_jsonl, 
         polarity_map,
-        min_keyphrase_score=args.min_keyphrase_score,
+        min_keyphrase_score=args.min_kp_score,
         drop_short_length=args.drop_short_length
     )
 
