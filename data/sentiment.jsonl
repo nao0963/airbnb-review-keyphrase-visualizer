@@ -2,7 +2,6 @@
 {"File": "en.airbnb-review-dataset-final.txt", "Line": 16, "Sentiment": "POSITIVE", "SentimentScore": {"Mixed": 0.0003837035328615457, "Negative": 0.0002422763645881787, "Neutral": 0.060733456164598465, "Positive": 0.9386405348777771}}
 {"File": "en.airbnb-review-dataset-final.txt", "Line": 17, "Sentiment": "POSITIVE", "SentimentScore": {"Mixed": 0.002361614489927888, "Negative": 9.658354247221723e-05, "Neutral": 0.00042077910620719194, "Positive": 0.9971209168434143}}
 {"File": "en.airbnb-review-dataset-final.txt", "Line": 18, "Sentiment": "POSITIVE", "SentimentScore": {"Mixed": 0.0023170404601842165, "Negative": 0.00012998763122595847, "Neutral": 0.00031086476519703865, "Positive": 0.9972422122955322}}
-{"File": "en.airbnb-review-dataset-final.txt", "Line": 20, "Sentiment": "POSITIVE", "SentimentScore": {"Mixed": 6.303577538346872e-05, "Negative": 2.9575057851616293e-05, "Neutral": 8.6579195340164e-05, "Positive": 0.99982088804245}}
 {"File": "en.airbnb-review-dataset-final.txt", "Line": 12, "Sentiment": "POSITIVE", "SentimentScore": {"Mixed": 0.00010734096576925367, "Negative": 1.2565723409352358e-05, "Neutral": 0.0010518789058551192, "Positive": 0.998828113079071}}
 {"File": "en.airbnb-review-dataset-final.txt", "Line": 1, "Sentiment": "POSITIVE", "SentimentScore": {"Mixed": 0.0008724983781576157, "Negative": 1.4799124983255751e-05, "Neutral": 0.0001872970606200397, "Positive": 0.9989253878593445}}
 {"File": "en.airbnb-review-dataset-final.txt", "Line": 13, "Sentiment": "POSITIVE", "SentimentScore": {"Mixed": 2.6103376512764953e-05, "Negative": 1.497020639362745e-05, "Neutral": 0.0006529878010042012, "Positive": 0.9993058443069458}}
@@ -21,4 +20,3 @@
 {"File": "en.airbnb-review-dataset-final.txt", "Line": 6, "Sentiment": "POSITIVE", "SentimentScore": {"Mixed": 3.70103916793596e-05, "Negative": 2.3653916287003085e-05, "Neutral": 0.002549554454162717, "Positive": 0.9973898530006409}}
 {"File": "en.airbnb-review-dataset-final.txt", "Line": 4, "Sentiment": "POSITIVE", "SentimentScore": {"Mixed": 0.00010464617662364617, "Negative": 0.00010346657654736191, "Neutral": 0.0005773630109615624, "Positive": 0.9992144107818604}}
 {"File": "en.airbnb-review-dataset-final.txt", "Line": 15, "Sentiment": "POSITIVE", "SentimentScore": {"Mixed": 0.00017224701878149062, "Negative": 9.783995483303443e-05, "Neutral": 0.00046285902499221265, "Positive": 0.999267041683197}}
-
